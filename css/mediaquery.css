@@ -1,0 +1,37 @@
+
+@media (max-width: 1399.98px) { 
+
+ }
+@media (max-width: 1199.98px) {  
+
+}
+@media (max-width: 991.98px) { 
+   
+ }
+@media (max-width: 767.98px) { 
+    .row {
+        margin-left: 0.5px;
+        margin-right: 0.5px;
+    }
+ }
+@media (max-width: 575.98px) { 
+    .navbar-brand{
+        font-size: 20px
+    }
+    ::-webkit-scrollbar-track{
+        background-color:  #707478;
+    }
+    ::-webkit-scrollbar{
+        width: 8px;
+    }
+    ::-webkit-scrollbar-thumb{
+        border-radius: 5px;
+        height: 20px;
+    }
+    header img{
+        height: 15vh;
+    }
+    .row {
+        padding: 8px;
+    }
+ }

@@ -1,0 +1,119 @@
+<html>
+
+<head>
+  <title>Home</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mediaquery.css">
+</head>
+
+<body>
+
+  <section class="games">
+    <header>
+      <img src="images/images1.png" class="w-100" alt="game photo">
+    </header>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary position-sticky top-0 col-sm-10 col-md-10 col-lg-10">
+      <div class="container">
+        <h5 class="navbar-brand text-uppercase fw-normal" href="#">
+          <img src="images/images2.png" alt="logo photo" style="width: 40px;" />
+          Game Reviews
+        </h5>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" data-category="mmorpg" href="#">mmorpg</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="shooter" href="#">shooter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="sailing" href="#">sailing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="permadeath" href="#">permadeath</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="superhero" href="#">superhero</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-category="pixel" href="#">pixel</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+
+    <main class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="gameData">
+        <div class="card-info">
+          <div class="card-group ">
+            <div class="card bg-transparent" data-id="">
+              <div class="card-body p-3">
+                <img src="" class="card-img-top w-100 " alt="...">
+                <div class="d-flex justify-content-between pt-3">
+                  <h3 class="text text-black"></h3>
+                  <span class="free text-bg-primary py-1 px-1">Free</span>
+                </div>
+                <p class="card-text text-center "></p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted d-flex justify-content-between">
+                  <span class=""></span>
+                  <span class=""></span>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+
+
+  <section class="details d-none">
+    <div class="container">
+      <div class="header d-flex justify-content-between mt-4">
+        <h1 class=" py-4 ">Details Game</h1>
+        <button class="btn-close btn-close-white " id="btnClose"></button>
+      </div>
+      <div class="row g-4" id="detailsContent">
+        <div class="col-md-4">
+          <img src="" class="w-100" alt="image details">
+        </div>
+        <div class="col-md-8">
+          <h3>Title:</h3>
+          <p class="fs-4">Category: <span class="badge text-bg-info"> </span> </p>
+          <p class="fs-4">Platform: <span class="badge text-bg-info"> </span> </p>
+          <p class="fs-4">Status: <span class="badge text-bg-info"> </span> </p>
+          <p class="small"></p>
+          <a class="btn btn-outline-warning mb-4" target="_blank" href="#">Show Game</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="loading d-none">
+    <span class="loader"></span>
+  </div>
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
